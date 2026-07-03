@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yoked · Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1b1b1b;
+      --body: #56524e;
+      --muted: #8a8782;
+      --canvas: #faf9f6;
+      --hairline: #ecebe8;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--canvas);
+      color: var(--body);
+      font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .wrap {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 96px 24px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 500;
+      font-size: 44px;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 0 0 32px;
+      color: var(--body);
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 22px;
+      border: 1px solid var(--hairline);
+      border-radius: 999px;
+      color: var(--ink);
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      background: #fff;
+    }
+    a.button:hover { border-color: var(--ink); }
+    .foot {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>yoked</h1>
+    <p>Two, joined. Read the Word together.</p>
+    <a class="button" href="./privacy/">Privacy Policy</a>
+    <div class="foot">© 2026 Yoked, Inc.</div>
+  </div>
+</body>
+</html>
